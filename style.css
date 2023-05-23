@@ -1,0 +1,90 @@
+/* CSS général */
+body{
+    background-image: linear-gradient(to bottom, #CCDAE0, #EDF2F4);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 60%;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+}
+
+#banner{
+    border-radius: 30px;
+    padding-top: 1vh;
+}
+
+h1{
+    color: #EF233C;
+    font-size: 45px;
+    font-family: 'Impact', charcoal, sans-serif;
+    font-weight: bold;
+}
+
+footer{
+    text-align: right;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+a:hover{
+    color: #2B2D42;
+}
+
+a:link{
+    color: #D90429;
+}
+
+a:visited{
+    color: grey;
+}
+
+
+/* CSS de la page index */
+h3{
+    color: #2B2D42;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    text-decoration: underline dotted;
+}
+
+.article{
+    border: 1px solid;
+    border-radius: 30px;
+    text-align: center;
+    padding: 1vh;
+}
+
+.image{
+    border: 2px solid #8D99AE;
+    border-radius: 20px;
+}
+
+
+/* CSS de la page contact */
+form{
+    text-align: center;
+}
+
+.needed{
+    color: red;
+}
+
+.elem{
+    padding: 1vh;
+}
+
+#pseudo{
+    margin-right: 1.1vw;
+}
+
+#pika{
+    text-align: center;
+    padding-top: 1vh;
+}

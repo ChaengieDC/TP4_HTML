@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <img src="img/header.png" alt="Header" id="banner">
+        <h1>Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <form method="POST" action="form.php">
+            <fieldset>
+                <legend>Contact form</legend>
+                <div class="elem" id="pseudo">
+                    <label for="nickname">Nickname <span class="needed">*</span></label>
+                    <input type="text" placeholder="Nickname" minlength="2" maxlength="20" id="nickname" required>
+                </div>
+                <div class="elem">
+                    <label for="email">E-mail <span class="needed">*</span></label>
+                    <input type="email" placeholder="E-mail" id="email" required>
+                </div>
+                <div class="elem">
+                    <label for="comm">Leave a comment !</label><br>
+                    <textarea name="comment" placeholder="Your comment..." id="comm" cols="70" rows="10"></textarea>
+                </div>
+                <div class="elem">
+                    <label for="case">Need a copy ?</label>
+                    <input type="checkbox" id="case" checked>
+                </div>
+                <div class="elem">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </fieldset>
+        </form>
+        <div id="pika">
+            <img src="img/pika.gif" width="380" height="220">
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number">Pokédex</a></li>
+            <li><a href="https://bulbapedia.bulbagarden.net/wiki/Type">Types</a></li>
+            <li><a href="https://bulbapedia.bulbagarden.net/wiki/Category:Abilities">Abilities</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
