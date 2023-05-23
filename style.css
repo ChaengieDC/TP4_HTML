@@ -14,6 +14,7 @@ header{
 #banner{
     border-radius: 30px;
     padding-top: 1vh;
+    /* width: 100%; (pour la rendre un peu + responsive mais pas très esthétique..) */
 }
 
 h1{
@@ -55,10 +56,16 @@ h3{
 }
 
 .article{
+    background-color: rgba(0, 0, 0, 0.027);
     border: 1px solid;
     border-radius: 30px;
     text-align: center;
     padding: 1vh;
+}
+
+.texte{
+    text-indent: 10%;
+    text-align: justify;
 }
 
 .image{
@@ -88,3 +95,7 @@ form{
     text-align: center;
     padding-top: 1vh;
 }
+
+
+/* J'ai essayé de rendre le plus possible la page responsive malgré la limite du padding et margin
+    comme je ne voulais pas utiliser les flexbox sans les comprendre totalement.
